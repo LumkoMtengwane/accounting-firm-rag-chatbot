@@ -6,7 +6,7 @@ It runs on Supabase (database, vector search and serverless functions) and Claud
 
 **Live demo:** https://lumkomtengwane.github.io/accounting-firm-rag-chatbot/ (limited to 20 questions per visitor a day. If it says the service is not reachable, the free Supabase project may be paused.)
 
-> **Demo data only.** "Marula Ridge Accountants" and all 20 documents are fictional. Dates, fees and rules in them are invented for this demonstration and are not tax advice.
+> **Demo data used.** "Marula Ridge Accountants" 
 
 ![The chat page answering "How much is an individual tax return?" with the current 2026 fee, a note that the 2025 schedule is archived, and both sources listed](docs/screenshot.png)
 
@@ -106,10 +106,6 @@ web/                 the chat page (plain HTML, CSS and JavaScript)
 tests/               30 offline tests
 ```
 
-## What a real client version would add
-
-Document upload and re-indexing, sign-in so clients see their own information, PDF and Word parsing, a bigger evaluation set built from real questions, human hand-off into an email or ticket, and a privacy and retention policy.
-
 ## Licence
 
-MIT. Fictional data.
+MIT. 
