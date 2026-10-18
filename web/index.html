@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marula Ridge Accountants | Ask a question</title>
+  <meta name="description" content="Demo of a document-grounded chatbot for an accounting firm website. Fictional firm and data.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner" role="note">
+    Demo with fictional data. Marula Ridge Accountants is not a real firm. Built to show how a firm's own documents can answer client questions.
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Marula Ridge Accountants">
+        <span class="brand-mark" aria-hidden="true">MR</span>
+        <span class="brand-name">Marula Ridge <span>Accountants</span></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <span>Tax</span><span>Bookkeeping</span><span>Payroll</span><span>Company</span>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap layout">
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">Client help desk</p>
+      <h1 id="intro-title">Questions about your tax, books or payroll?</h1>
+      <p class="lead">Ask about our fees, deadlines, documents we need, or how we work. Answers come from the firm's own documents, with the source shown.</p>
+
+      <h2 class="small-title">Try asking</h2>
+      <div class="chips" id="chips" role="group" aria-label="Suggested questions">
+        <button type="button" class="chip">What documents do I need for FICA?</button>
+        <button type="button" class="chip">How much is an individual tax return?</button>
+        <button type="button" class="chip">I got a letter from SARS. What should I do?</button>
+        <button type="button" class="chip">When is the EMP201 due?</button>
+        <button type="button" class="chip">How long do you keep my records?</button>
+      </div>
+
+      <aside class="contact" aria-label="Contact the office">
+        <h2 class="small-title">Prefer to speak to someone?</h2>
+        <p><strong>Office:</strong> Centurion, Gauteng<br>
+        <strong>Hours:</strong> Mon to Fri, 08:00 to 16:30<br>
+        <strong>Phone:</strong> 012 555 0142<br>
+        <strong>Email:</strong> hello@marularidge.example</p>
+      </aside>
+    </section>
+
+    <section class="chat" aria-label="Chat">
+      <div class="chat-head">
+        <div>
+          <h2>Ask Marula Ridge</h2>
+          <p>General information only, not tax advice.</p>
+        </div>
+        <button type="button" class="reset" id="reset">New chat</button>
+      </div>
+
+      <div class="log" id="log" role="log" aria-live="polite" aria-relevant="additions">
+        <div class="msg bot welcome">
+          <div class="bubble">
+            <p>Hello. I answer questions using the firm's documents and I show where each answer comes from. If I am not sure, I will say so and point you to a consultant.</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="composer" id="form" autocomplete="off">
+        <label for="q" class="sr-only">Your question</label>
+        <textarea id="q" rows="1" maxlength="500" placeholder="Type your question" required></textarea>
+        <button type="submit" id="send">Send</button>
+      </form>
+      <p class="fine" id="fine">Please do not enter ID numbers, tax numbers or other personal details. Questions are logged to improve this demo.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Demo project. Fictional firm and documents. Answers are generated from those documents and may be wrong. Always confirm important matters with a qualified consultant.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "accounting-rag-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "description": "Document-grounded chatbot for an accounting firm website. Answers with citations, says I don't know when unsure and flags low-confidence answers for a human. Supabase (pgvector, Edge Functions) and Claude Haiku.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "ingest": "tsx --env-file=.env scripts/ingest.ts",
+    "eval": "tsx --env-file=.env scripts/eval.ts",
+    "retrieval": "tsx --env-file=.env scripts/retrieval-check.ts",
+    "web": "node scripts/serve-web.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

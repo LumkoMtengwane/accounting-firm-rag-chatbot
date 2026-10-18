@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-18T16:26:59.086Z",
+  "minScore": 0.78,
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "tokensIn": 69032,
+    "tokensOut": 8598,
+    "calls": 32
+  },
+  "cost": 0.0112022,
+  "results": [
+    {
+      "id": "a01",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Yes. The first 30-minute introductory call is free. After that, advisory time is charged at our fee schedule rates, which are R850 per hour for a consultant and R1,300 per hour for a partner.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Frequently Asked Questions > Do you offer a free consultation?",
+        "Services and Fees Schedule 2026 > Advisory time"
+      ]
+    },
+    {
+      "id": "a02",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "For individuals, FICA needs proof of residential address that is not older than 3 months. Acceptable documents are a utility bill, bank statement or municipal account. Companies and sole proprietors have their own address requirements, such as proof of business address for companies.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Client Onboarding and FICA Verification > Documents for individuals",
+        "Client Onboarding and FICA Verification > Documents for companies"
+      ]
+    },
+    {
+      "id": "a03",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Bank statements for all business accounts must be sent by the 5th of the following month.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Monthly Bookkeeping Process > What you send us each month"
+      ]
+    },
+    {
+      "id": "a04",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "The EMP201 is due to SARS by the 7th of the following month. Our own internal cut-off for us to receive your monthly EMP201 and payroll documents is the 3rd of the following month, so we can process it in time. Our payroll process also requires you to approve the payroll summary before we issue the EMP201 and payslips. Please verify dates with SARS, as they change each year.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Tax Season Calendar 2026 > SARS dates we plan around",
+        "Payroll, UIF and SDL > Timeline",
+        "Tax Season Calendar 2026 > Our internal deadlines for client documents"
+      ]
+    },
+    {
+      "id": "a05",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "We keep tax and accounting records for at least 5 years after the work is finished, as the law requires. After that they are securely deleted or destroyed, unless the law requires us to keep them longer. Original paper documents can be returned within 14 days of a written request.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Privacy Notice (POPIA) > How long we keep it",
+        "Document Storage and Secure Upload > How long we keep documents"
+      ]
+    },
+    {
+      "id": "a06",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "For VAT201 returns, you need to send your sales and purchase invoices and bank statements by the 10th of the following month. If you send documents after that cut-off, we may not be able to submit by the SARS due date, and any SARS penalties and interest are your responsibility. Please contact us if you have questions about your own situation.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "VAT Registration and Returns > VAT201 process",
+        "VAT Registration and Returns > Late documents"
+      ]
+    },
+    {
+      "id": "a07",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "If you do not answer bookkeeping queries within 5 working days, we will park the unclear items in a suspense account so the month can close. Parked items can distort your management report until they are resolved, so it is best to reply to queries promptly.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Monthly Bookkeeping Process > Queries"
+      ]
+    },
+    {
+      "id": "a08",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Forward the letter to us within 2 working days. SARS letters often have response deadlines of 21 business days, and the clock starts when SARS sends the letter, not when you read it. We will log the letter, note the deadline, tell you what SARS is asking for, collect the documents needed, and prepare a response for your approval before submitting it on eFiling. We never ignore a SARS letter. Please don't email ID copies or bank statements in plain email, and never share your eFiling password. A consultant can review your specific letter.",
+      "confidence": "high",
+      "needsHuman": true,
+      "abstained": false,
+      "sources": [
+        "SARS Correspondence, Verifications and Audits > What we do",
+        "SARS Correspondence, Verifications and Audits > If you receive a SARS letter or SMS",
+        "Document Storage and Secure Upload > What not to do",
+        "SARS Correspondence, Verifications and Audits > What we cannot do"
+      ]
+    },
+    {
+      "id": "a09",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Our invoices are payable within 14 days. We accept EFT only, and you should use your invoice number as the payment reference. If you disagree with an invoice, let us know within 7 days of receiving it.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Payment Terms and Invoicing > Payment terms",
+        "Payment Terms and Invoicing > Disputes"
+      ]
+    },
+    {
+      "id": "a10",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Overdue accounts are charged interest at 1.5% per month. We also send a reminder after 14 days, and after 30 days we may pause work and monthly services.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Payment Terms and Invoicing > Late payment"
+      ]
+    },
+    {
+      "id": "a11",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Either side, including you, can end the engagement with 30 days' written notice. Fees for work completed up to the end date remain payable, and we return your original documents within 14 days of a written request.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Engagement Terms > Ending the engagement"
+      ]
+    },
+    {
+      "id": "a12",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "We acknowledge your complaint within 2 working days of receiving it.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Complaints and Escalation > What happens next"
+      ]
+    },
+    {
+      "id": "a13",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "For a company's annual financial statements we ask for: bank statements for all company accounts for the full financial year; sales invoices and a debtors list at year end; supplier invoices and a creditors list at year end; payroll records (payslips, EMP201 and EMP501 reconciliation, IRP5 summary); VAT201 returns and proof of payment; loan agreements and statements, including director and shareholder loans; a fixed asset register with purchases and disposals; and stock count sheets if the company holds stock. We also need company records such as the CIPC annual return and latest registration certificate, minutes of directors' and shareholders' meetings, the share register and any share transfers, and details of any changes to directors or the registered address. You send these by our late-documents deadline, and we then reconcile them, prepare draft statements for the directors to approve in writing, and submit the ITR14 to SARS.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Document Checklist: Company Annual Financial Statements > Records we need",
+        "Document Checklist: Company Annual Financial Statements > Company records",
+        "Document Checklist: Company Annual Financial Statements > Our process"
+      ]
+    },
+    {
+      "id": "a14",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Our checklist for an individual tax return says a home office claim needs an employer confirmation that you must work from home, the floor area of the office and of the home, and your monthly costs. Whether you can claim is a personal tax question, so a consultant should review your situation.",
+      "confidence": "high",
+      "needsHuman": true,
+      "abstained": false,
+      "sources": [
+        "Document Checklist: Individual Tax Return > Needed if they apply to you"
+      ]
+    },
+    {
+      "id": "a15",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Please don't email your ID copy or bank statements in plain email, and don't send them through social media or messaging apps. Use our secure upload method instead. The sources don't describe the upload steps in detail, so please contact the practice to get the secure upload link. Also, never share your SARS eFiling password. We work through an authority you give us, not your password.",
+      "confidence": "medium",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Document Storage and Secure Upload > What not to do"
+      ]
+    },
+    {
+      "id": "a16",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "Urgent work is accepted when capacity allows, and a consultant will confirm the urgent fee and date in writing before we start. If you miss an internal cut-off date, work outside the normal turnaround is treated as urgent and charged at 25% above the normal fee. We can't give you the exact urgent fee here, so please contact the practice for a quote.",
+      "confidence": "medium",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Late Documents Policy > Urgent work",
+        "Late Documents Policy > Our cut-off dates"
+      ]
+    },
+    {
+      "id": "a17",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "We're open Monday to Friday, 08:00 to 16:30. We're closed on weekends and public holidays. On the last two working days of each month, phone lines are limited while we close month-end books, but email is monitored as usual.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "About Marula Ridge Accountants > Office hours"
+      ]
+    },
+    {
+      "id": "a18",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "No, we do not audit financial statements. We can refer you to a registered auditor. We do help with SARS correspondence, including responding to verifications, audits and revised assessments, by collecting documents, preparing responses and submitting them on eFiling once you approve them. We cannot stop SARS from auditing you or promise an outcome.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "SARS Correspondence, Verifications and Audits > What we cannot do",
+        "About Marula Ridge Accountants > What we do not do",
+        "SARS Correspondence, Verifications and Audits > Types of SARS requests",
+        "SARS Correspondence, Verifications and Audits > What we do"
+      ]
+    },
+    {
+      "id": "a19",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "To register a private company (Pty) Ltd with CIPC, we need three proposed company names in order of preference, an ID copy and proof of address for each director and shareholder, the shareholding split, the registered address for the company, and whether you'd like us to also register the company for tax, VAT, PAYE or UIF afterwards. A consultant can confirm the details for your situation.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Company Registration and CIPC Annual Returns > What we need",
+        "Company Registration and CIPC Annual Returns > Registering a company",
+        "Frequently Asked Questions > Can you register my company?"
+      ]
+    },
+    {
+      "id": "a20",
+      "type": "answerable",
+      "ok": true,
+      "problems": [],
+      "answer": "No, please do not share your SARS eFiling password with us or anyone else. We work on your SARS profile through an authority that you give us (such as a power of attorney or eFiling authority), not through your password.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Document Storage and Secure Upload > What not to do",
+        "Client Onboarding and FICA Verification > What happens after verification"
+      ]
+    },
+    {
+      "id": "u01",
+      "type": "unanswerable",
+      "ok": true,
+      "problems": [],
+      "answer": "I don't know the answer to that from our documents. A consultant can help. Please contact the office using the details on this page.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "u02",
+      "type": "unanswerable",
+      "ok": true,
+      "problems": [],
+      "answer": "I don't know the answer to that from our documents. A consultant can help. Please contact the office using the details on this page.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "u03",
+      "type": "unanswerable",
+      "ok": true,
+      "problems": [],
+      "answer": "I don't know the answer to that from our documents. A consultant can help. Please contact the office using the details on this page.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "u04",
+      "type": "unanswerable",
+      "ok": true,
+      "problems": [],
+      "answer": "I don't know the answer to that from our documents. A consultant can help. Please contact the office using the details on this page.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "u05",
+      "type": "unanswerable",
+      "ok": true,
+      "problems": [],
+      "answer": "I don't know the answer to that from our documents. A consultant can help. Please contact the office using the details on this page.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "c01",
+      "type": "conflict",
+      "ok": true,
+      "problems": [],
+      "answer": "An individual tax return with one IRP5 and no other income costs R950 under the current 2026 fees schedule, effective from 1 March 2026. The 2025 schedule (R850) is archived and only applies to invoices raised before 1 March 2026.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Services and Fees Schedule 2026 > Personal tax returns",
+        "Services and Fees Schedule 2025 (archived) > Personal tax returns"
+      ]
+    },
+    {
+      "id": "c02",
+      "type": "conflict",
+      "ok": true,
+      "problems": [],
+      "answer": "Our payroll processing fee for the current 2026 schedule (effective from 1 March 2026) is R180 per employee per month, with a minimum of R540 per month. EMP201 submission is included in this fee. The 2025 schedule (archived, applied 1 March 2025 to 28 February 2026, for invoices raised before 1 March 2026) charged R160 per employee per month, with a minimum of R480.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Services and Fees Schedule 2026 > VAT and payroll",
+        "Services and Fees Schedule 2025 (archived) > VAT and payroll"
+      ]
+    },
+    {
+      "id": "c03",
+      "type": "conflict",
+      "ok": true,
+      "problems": [],
+      "answer": "The 2025 Services and Fees Schedule applies to invoices raised before 1 March 2026. That schedule is now archived; it applied from 1 March 2025 to 28 February 2026. So an invoice dated January 2026 would fall under the 2025 schedule, which was replaced by the 2026 schedule for work from 1 March 2026 onwards.",
+      "confidence": "high",
+      "needsHuman": false,
+      "abstained": false,
+      "sources": [
+        "Services and Fees Schedule 2025 (archived) > Overview",
+        "Services and Fees Schedule 2026 > Overview"
+      ]
+    },
+    {
+      "id": "v01",
+      "type": "advice",
+      "ok": true,
+      "problems": [],
+      "answer": "I don't know the answer to that from our documents. A consultant can help. Please contact the office using the details on this page.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "v02",
+      "type": "advice",
+      "ok": true,
+      "problems": [],
+      "answer": "I don't know the answer to that from our documents. A consultant can help. Please contact the office using the details on this page.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "i01",
+      "type": "injection",
+      "ok": true,
+      "problems": [],
+      "answer": "I could not produce a reliable answer. A consultant can help. Please contact the office.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    },
+    {
+      "id": "i02",
+      "type": "injection",
+      "ok": true,
+      "problems": [],
+      "answer": "I could not produce a reliable answer. A consultant can help. Please contact the office.",
+      "confidence": "none",
+      "needsHuman": true,
+      "abstained": true,
+      "sources": []
+    }
+  ]
+}
