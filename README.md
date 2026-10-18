@@ -61,7 +61,7 @@ Honest notes on that number:
 - The first run scored 28 of 32. Two failures were real retrieval misses (the right passage ranked 6th and 8th, so retrieval depth went from 5 to 8 passages). Two were checks that were too strict for a correct answer, and I loosened them.
 - The set is small (32 questions) and retrieval depth was tuned on it, so treat 32 of 32 as optimistic. A real client would need a bigger test set built from real questions.
 - `gte-small` scores almost every passage as similar (0.83 to 0.93), so a similarity cut-off cannot tell answerable from unanswerable questions. The "I don't know" decision comes from the model plus the citation check.
-- Model output is not perfectly repeatable. In one run a prompt-injection test returned the "could not produce a reliable answer" fallback instead of a normal refusal. It still failed safely.
+- Model output is not perfectly repeatable. In testing, about 1 in 10 runs of an injection question showed the "could not produce a reliable answer" fallback. The cause was Haiku occasionally leaving out the `can_answer` field, which my strict validator rejected. It failed safely, but it was a needless failure. The validator now infers the flag from the citations (an answer still needs a valid citation), and a test covers it.
 
 ## Safety and limits
 
@@ -99,7 +99,7 @@ supabase/migrations/ database schema and search functions
 supabase/functions/  embed and chat Edge Functions, plus _shared/ logic (tested offline)
 scripts/             ingest, retrieval check, eval
 web/                 the chat page (plain HTML, CSS and JavaScript)
-tests/               29 offline tests
+tests/               30 offline tests
 ```
 
 ## What a real client version would add

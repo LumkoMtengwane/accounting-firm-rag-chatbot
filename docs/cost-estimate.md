@@ -23,7 +23,7 @@ Haiku 5.5 prices used: $0.10 per million input tokens and $0.50 per million outp
 
 ## Limits and caveats
 
-- Supabase free plan: pauses after 7 days idle. Free-plan quotas should be checked on supabase.com/pricing before a real deployment (third-party sources disagreed when this was researched).
+- Supabase free plan, read from supabase.com/pricing on 2026-10-18: 500 MB database, 500,000 Edge Function invocations included (the page does not state the period), 5 GB egress, 1 GB file storage, 2 active projects, and projects pause after 1 week of inactivity. Edge Function CPU limits are not shown on the pricing page. The demo is far below all of these (about 130 database rows, a daily cap of 200 questions).
 - A real firm would likely need the Supabase Pro plan (about $25 a month) for no pausing, backups and higher limits. That is a decision for the client, not part of the demo.
 - Document updates cost nothing in AI fees. Re-running `npm run ingest` re-embeds everything inside Supabase.
 - The figures above exclude the one-off build time.

@@ -43,13 +43,16 @@ export const ANSWER_TOOL = {
 export function parseModelAnswer(input: unknown): ModelAnswer | null {
   if (typeof input !== "object" || input === null) return null;
   const o = input as Record<string, unknown>;
-  if (typeof o.can_answer !== "boolean") return null;
   if (typeof o.answer !== "string") return null;
   if (!Array.isArray(o.citations) || !o.citations.every((n) => Number.isInteger(n))) return null;
   if (!CONFIDENCE.includes(o.confidence as Confidence)) return null;
   if (typeof o.needs_human !== "boolean") return null;
+  // Haiku sometimes omits can_answer. When it is missing, infer it from the citations
+  // (enforceRules still demands at least one valid citation). A wrong type is still rejected.
+  if (o.can_answer !== undefined && typeof o.can_answer !== "boolean") return null;
+  const canAnswer = o.can_answer ?? (o.citations as number[]).length > 0;
   return {
-    canAnswer: o.can_answer,
+    canAnswer,
     answer: o.answer.trim(),
     citations: o.citations as number[],
     confidence: o.confidence as Confidence,

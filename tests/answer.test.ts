@@ -14,6 +14,12 @@ describe("parseModelAnswer", () => {
     expect(parseModelAnswer({ ...good, citations: ["1"] })).toBeNull();
     expect(parseModelAnswer({ ...good, can_answer: "yes" })).toBeNull();
   });
+
+  it("infers can_answer when the model leaves it out", () => {
+    const { can_answer: _omit, ...withoutFlag } = good;
+    expect(parseModelAnswer(withoutFlag)?.canAnswer).toBe(true);
+    expect(parseModelAnswer({ ...withoutFlag, citations: [] })?.canAnswer).toBe(false);
+  });
 });
 
 describe("enforceRules", () => {
