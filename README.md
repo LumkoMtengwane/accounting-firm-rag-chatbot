@@ -8,6 +8,10 @@ It runs on Supabase (database, vector search and serverless functions) and Claud
 
 > **Demo data only.** "Marula Ridge Accountants" and all 20 documents are fictional. Dates, fees and rules in them are invented for this demonstration and are not tax advice.
 
+![The chat page answering "How much is an individual tax return?" with the current 2026 fee, a note that the 2025 schedule is archived, and both sources listed](docs/screenshot.png)
+
+*A real answer from the deployed function. Two documents disagree on purpose (the 2026 and the archived 2025 fee schedules), and the bot picks the current one and says so.*
+
 ## What it does
 
 | Step | What happens |
